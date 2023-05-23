@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.indicator {
+  position: absolute;
+  left: 306px;
+  height: 2rem;
+  width: 3rem;
+  background-color: white;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.indicator::before {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: -16px;
+  width: 16px;
+  height: 16px;
+  box-shadow: 5px 4px 0px 0px white;
+  background-color: #673ec7;
+  border-bottom-right-radius: 1rem;
+}
+
+.indicator::after {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: 32px;
+  width: 1rem;
+  height: 16px;
+  background-color: white;
+  box-shadow: 4px -5px 0px 0px white;
+  background-color: #673ec7;
+  border-top-right-radius: 1rem;
+}
